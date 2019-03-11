@@ -16,7 +16,7 @@
     dest: /lib/systemd/system/quasselcore.service
     owner: root
     group: root
-    mode: 0644   
+    mode: 0644
   notify: restart quassel-core
 
 - name: Enable quassel-core on boot
