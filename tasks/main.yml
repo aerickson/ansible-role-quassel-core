@@ -10,6 +10,15 @@
     name: quassel-core
     state: present
 
+- name: place our systemctl service
+  copy:
+    src: quasselcore.service
+    dest: /lib/systemd/system/quasselcore.service
+    owner: root
+    group: root
+    mode: 0644   
+  notify: restart quassel-core
+
 - name: Enable quassel-core on boot
   service:
     name: quasselcore
