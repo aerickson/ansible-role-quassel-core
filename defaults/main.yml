@@ -3,4 +3,3 @@
 quasselcore_setup_ufw: true
 quasselcore_use_ppa: true
 quasselcore_systemd_enabled: true
-
