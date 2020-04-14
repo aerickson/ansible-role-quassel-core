@@ -24,6 +24,14 @@
     name: quasselcore
     state: started
     enabled: true
+  when: quasselcore_systemd_enabled == true
+
+- name: Disable quassel-core on boot
+  service:
+    name: quasselcore
+    state: stopped
+    enabled: false
+  when: quasselcore_systemd_enabled == false
 
 - name: Setup ufw firewall rule
   ufw:
