@@ -11,6 +11,7 @@ Ubuntu or Debian
 
 * `quasselcore_use_ppa: true`
 * `quasselcore_setup_ufw: true` Add a ufw rule to allow port 4242
+* `quasselcore_systemd_enabled: true` Should the service be started at boot and running.
 
 ## Dependencies
 
