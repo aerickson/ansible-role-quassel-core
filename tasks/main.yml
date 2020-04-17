@@ -1,4 +1,11 @@
 ---
+
+# requied to be able to add gpg key
+- name: install dirmngr
+  apt:
+    name: dirmngr
+    state: present
+
 # tasks file for ansible-role-quassel-core
 - name: Add Quassel PPA
   apt_repository:
