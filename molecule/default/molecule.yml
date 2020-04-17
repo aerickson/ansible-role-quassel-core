@@ -4,7 +4,6 @@ dependency:
 driver:
   name: docker
 lint: |
-  name: yamllint
   set -e
   yamllint .
   ansible-lint
