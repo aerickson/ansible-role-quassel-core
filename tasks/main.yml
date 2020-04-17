@@ -1,6 +1,6 @@
 ---
 
-# requied to be able to add gpg key
+# required to be able to add gpg key
 - name: install dirmngr
   apt:
     name: dirmngr
