@@ -31,3 +31,4 @@
       loop:
         - ufw
         - net-tools
+        - dirmgr
