@@ -1,4 +1,5 @@
 # ansible-role-quassel-core
+
 [![Build Status](https://travis-ci.com/aerickson/ansible-role-quassel-core.svg?branch=master)](https://travis-ci.com/aerickson/ansible-role-quassel-core) [![Ansible Galaxy](https://img.shields.io/badge/galaxy-aerickson.quassel--core-blue.svg?style=flat)](https://galaxy.ansible.com/aerickson/quassel-core/)
 
 Simply installs and start quassel-core on boot. Get more information about Quassel at [http://quassel-irc.org/]().
